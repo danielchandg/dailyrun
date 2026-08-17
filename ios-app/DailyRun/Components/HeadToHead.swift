@@ -27,7 +27,7 @@ struct HeadToHead: View {
                                 .foregroundStyle(.white)
                                 .frame(
                                     maxWidth: .infinity,
-                                    alignment: column == 0 ? .leading : .center
+                                    alignment: column == 0 ? .leading : .trailing
                                 )
                         }
                     }

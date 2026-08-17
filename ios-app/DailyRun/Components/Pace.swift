@@ -62,8 +62,11 @@ struct Pace: View {
                     // Negated so the scale runs fast-at-top; labels are un-negated below.
                     yStart: .value("Pace", -range.upper),
                     yEnd: .value("Pace", -point.pace),
-                    width: .fixed(barWidth)
+                    width: .fixed(point.width)
                 )
+                // A narrowed bar would otherwise centre in its slot; shift it so
+                // it starts where a full-width bar would.
+                .offset(x: -(barWidth - point.width) / 2)
                 .foregroundStyle(selected == point.index ? Palette.paceBarTouched : Palette.paceBar)
             }
         }
@@ -123,7 +126,21 @@ struct Pace: View {
 
     private var selectionLabel: String? {
         guard let selected, let point = points.first(where: { $0.index == selected }) else { return nil }
-        return "\(model.unit.capitalized) \(point.label): \(minuteSecond(point.pace))"
+        // A partial split reads its own elapsed time; a full one reads its pace.
+        // They're the same number for full splits, but not for the tail.
+        return "\(point.label): \(minuteSecond(point.isPartial ? point.seconds : point.pace))"
+    }
+
+    /// "Mile 1" … "Mile 26.2" when each split is exactly one unit; otherwise a
+    /// range like "10-15 km", since "Km 3" would be misleading for 5km splits.
+    private func splitName(start: Double, end: Double) -> String {
+        func number(_ value: Double) -> String {
+            value.formatted(.number.precision(.fractionLength(0...2)))
+        }
+        guard model.splitDistance != 1 else {
+            return "\(model.unit.capitalized) \(number(end))"
+        }
+        return "\(number(start))-\(number(end)) \(model.unit)"
     }
 
     // MARK: - Data
@@ -134,26 +151,34 @@ struct Pace: View {
         let seconds: Double
         /// Seconds per full unit, so a partial final split is comparable.
         let pace: Double
+        let isPartial: Bool
+        /// Narrowed in proportion to the distance covered, with a floor so a
+        /// very short tail stays visible.
+        let width: CGFloat
     }
 
     private var points: [Point] {
         model.labeledSplits.compactMap { split in
-            let covered = min(
-                model.splitDistance,
-                max(0, model.distance - Double(split.index) * model.splitDistance)
-            )
+            let start = Double(split.index) * model.splitDistance
+            let covered = min(model.splitDistance, max(0, model.distance - start))
             guard covered > 0 else { return nil }
+
+            let isPartial = covered < model.splitDistance
             return Point(
                 index: split.index,
-                label: split.label,
+                label: splitName(start: start, end: start + covered),
                 seconds: split.seconds,
-                pace: split.seconds / covered
+                pace: split.seconds / covered,
+                isPartial: isPartial,
+                width: isPartial
+                    ? Swift.max(3, barWidth * covered / model.splitDistance)
+                    : barWidth
             )
         }
     }
 
     private var barWidth: CGFloat {
-        points.count > 30 ? 5 : (points.count > 15 ? 9 : 17)
+        model.splits.count > 30 ? 5 : (model.splits.count > 15 ? 9 : 17)
     }
 
     /// Pads the observed pace spread, then snaps outward to a round step so the

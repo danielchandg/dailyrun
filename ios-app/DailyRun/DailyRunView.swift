@@ -35,8 +35,10 @@ struct DailyRunView: View {
                 }
             }
         }
-        .background(.black)
-        .ignoresSafeArea(edges: .top)
+        // Hardcoded to LearnMore's background so the last section bleeds under
+        // the home indicator instead of showing black.
+        .background(Color(hex: 0x9D6A43))
+        .ignoresSafeArea(edges: [.top, .bottom])
         .scrollIndicators(.hidden)
         .statusBarHidden(false)
     }

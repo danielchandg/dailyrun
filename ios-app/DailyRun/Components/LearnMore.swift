@@ -18,6 +18,7 @@ struct LearnMore: View {
                         Link(destination: url) {
                             Text(link.title)
                                 .font(.avenir("Medium", 14))
+                                .underline()
                                 .foregroundStyle(.white)
                                 .multilineTextAlignment(.leading)
                                 .fixedSize(horizontal: false, vertical: true)
@@ -28,6 +29,8 @@ struct LearnMore: View {
             }
             .padding(.leading, 8)
         }
+        // Extra room below the last link, since this is the final section.
+        .padding(.bottom, 40)
         .sectionBackground(Palette.learnMore)
     }
 }
