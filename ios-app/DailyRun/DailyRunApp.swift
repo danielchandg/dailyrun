@@ -18,11 +18,10 @@ struct DailyRunApp: App {
 
     var body: some Scene {
         WindowGroup {
-            // TODO: replace with the real API call. Roughly:
-            //   1. a loading view while the request is in flight
-            //   2. DailyRunView(response:) on success
-            //   3. an error view with a retry on failure
-            // Until then this is the hardcoded stub in SampleResponse.swift.
+            // TODO: switch to ContentLibrary.entry(for: .now) once there's a
+            // full month of entries and an empty state for the days without
+            // one. Pinned to 04-26 for now so the app has something to show
+            // on any launch date.
             DailyRunView(response: .sample)
         }
     }

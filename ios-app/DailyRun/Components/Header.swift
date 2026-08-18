@@ -12,7 +12,7 @@ struct Header: View {
     var body: some View {
         ZStack(alignment: .bottomLeading) {
             GeometryReader { geo in
-                if let photo = response.photo, let url = URL(string: photo) {
+                if let url = response.photo?.resolvedURL {
                     AsyncImage(url: url) { image in
                         image
                             .resizable()
@@ -56,10 +56,18 @@ struct Header: View {
 
                     Spacer()
 
-                    if let source = response.photoSource {
-                        Text(source)
+                    if let photo = response.photo {
+                        Text(photo.credit)
                             .font(.avenir("DemiBold", 9))
-                            .foregroundStyle(.white.opacity(0.6))
+                            // Shutterstock's TOS requires the credit be
+                            // "clearly and easily readable by the unaided eye",
+                            // so this doesn't recede as far as it looks like it
+                            // should. Don't drop it back toward 0.6.
+                            .foregroundStyle(.white.opacity(0.85))
+                            // The credit is a license condition, not decoration:
+                            // let it wrap and shrink rather than truncate away.
+                            .multilineTextAlignment(.trailing)
+                            .minimumScaleFactor(0.8)
                     }
                 }
                 .padding(.top, 6)

@@ -9,10 +9,30 @@ struct DailyRunResponse: Decodable, Sendable {
     let title: String
     let date: String
     let event: String
-    let photo: String?
-    /// Attribution to display with `photo`, e.g. "Photo: Getty Images".
-    let photoSource: String?
+    let photo: LicensedPhoto?
     let components: [DailyRunComponent]
+}
+
+/// A photo and the credit that has to appear alongside it.
+///
+/// Two fields on purpose — these are the only two the app renders. The rest
+/// of the paperwork (license name, source page, usage restrictions, expiry)
+/// is real and worth keeping, but it's a compliance record rather than
+/// runtime data, so it belongs in the repo instead of in every entry file.
+struct LicensedPhoto: Decodable, Sendable {
+    /// Absolute URL of *your* licensed copy — never the vendor's CDN.
+    let url: String
+
+    /// The credit exactly as the license requires it to read, e.g.
+    /// "Jane Doe / Shutterstock.com". Non-optional on purpose: an
+    /// unattributed photo fails to decode rather than shipping bare.
+    ///
+    /// Verbatim means verbatim — nothing appends to this string. Licenses
+    /// that require the license name shown (Creative Commons) want it
+    /// written into the credit itself: "Jane Doe / CC BY-SA 4.0".
+    let credit: String
+
+    var resolvedURL: URL? { URL(string: url) }
 }
 
 enum DailyRunComponent: Decodable, Sendable {
