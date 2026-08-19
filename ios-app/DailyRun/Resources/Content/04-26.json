@@ -4,7 +4,8 @@
   "event": "2026 London Marathon",
   "photo": {
     "url": "https://static.time.com/v3/assets/bltea6093859af6183b/blt710e33b12972c4a2/6a209e929bc7a33d755cc63b/T100SPORTS-2026-Web-Sebastian-Sawe.jpg?branch=production&width=3840&auto=webp&crop=1:1%2Coffset-x0.00%2Coffset-y100.00",
-    "credit": "Dave Smith / Shutterstock.com"
+    "credit": "Dave Smith / Shutterstock.com",
+    "license_url": "https://www.shutterstock.com/license"
   },
   "components": [
     {
@@ -27,7 +28,7 @@
       "title": "WORLD RECORD",
       "description": "Sebastian Sawe beat Kelvin Kiptum's previous world record of 2:00:35 from the 2023 Chicago Marathon.",
       "rows": [
-        ["Marathon Split", "Sawe's Time", "Kiptum's Time"],
+        ["Marathon Split", "Sawe 2026", "Kiptum 2023"],
         ["5 km", "14:14", "14:26"],
         ["10 km", "28:35", "28:42"],
         ["15 km", "43:10", "43:09"],
@@ -70,7 +71,7 @@
     {
       "type": "video",
       "title": "Watch it on YouTube",
-      "url": "https://youtu.be/1voTDQQQf5g?si=GiJfiOKZdbOj349A"
+      "url": "https://youtu.be/1voTDQQQf5g"
     },
     {
       "type": "learn_more",

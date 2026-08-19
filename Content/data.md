@@ -1,5 +1,5 @@
 ### January
-- January 6 2022: 100M world record, Aleksandr Sorokin *
+- January 6 2022: 100M world record, Aleksandr Sorokin DONE
 - January 24 2026: Indoor 800m world record, Josh Hoey *
 
 ### February
@@ -27,7 +27,7 @@
 - April 20 2026: Boston marathon course record, John Korir *
 - April 23 2022: Former 100k world record, Aleksandr Sorokin *
 - April 24 2021: Former 100M and 12-hour world records, Aleksandr Sorokin *
-- April 26 2026: Marathon world record, Sebastian Sawe *
+- April 26 2026: Marathon world record, Sebastian Sawe DONE
 
 ### May
 - May 4 2019: Former 50M world record, Jim Walmsley *
@@ -63,7 +63,7 @@
 - July 16 1988: Women's 100m world record, Florence Griffith Joyner -
 - July 17 2015: Former women's 1500m world record, Genzebe Dibaba -
 - July 17 2026: Fastest 1200m split ever, Josh Kerr -
-- July 18 2026: Mile world record, Josh Kerr *
+- July 18 2026: Mile world record, Josh Kerr DONE
 - July 21 2023: Women's mile world record, Faith Kipyegon *
 - July 26 1983: Women's 800m world record, Jarmila Kratochvílová *
 - July 27 1985: Former mile world record, Steve Cram -

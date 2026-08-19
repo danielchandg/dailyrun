@@ -32,7 +32,17 @@ struct LicensedPhoto: Decodable, Sendable {
     /// written into the credit itself: "Jane Doe / CC BY-SA 4.0".
     let credit: String
 
+    /// Deed or terms page for the license, e.g.
+    /// "https://creativecommons.org/licenses/by-sa/4.0/".
+    ///
+    /// Optional because not every license has one worth linking — a private
+    /// agreement with a photographer has no public page. Creative Commons
+    /// does require "a link to the license", so CC photos should set it.
+    let licenseUrl: String?
+
     var resolvedURL: URL? { URL(string: url) }
+
+    var resolvedLicenseURL: URL? { licenseUrl.flatMap(URL.init(string:)) }
 }
 
 enum DailyRunComponent: Decodable, Sendable {

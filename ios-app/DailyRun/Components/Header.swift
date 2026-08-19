@@ -57,17 +57,33 @@ struct Header: View {
                     Spacer()
 
                     if let photo = response.photo {
-                        Text(photo.credit)
-                            .font(.avenir("DemiBold", 9))
-                            // Shutterstock's TOS requires the credit be
-                            // "clearly and easily readable by the unaided eye",
-                            // so this doesn't recede as far as it looks like it
-                            // should. Don't drop it back toward 0.6.
-                            .foregroundStyle(.white.opacity(0.85))
-                            // The credit is a license condition, not decoration:
-                            // let it wrap and shrink rather than truncate away.
-                            .multilineTextAlignment(.trailing)
-                            .minimumScaleFactor(0.8)
+                        HStack(alignment: .firstTextBaseline, spacing: 3) {
+                            Text(photo.credit)
+                                .font(.avenir("DemiBold", 9))
+                                // The credit is a license condition, not
+                                // decoration: let it wrap and shrink rather
+                                // than truncate away.
+                                .multilineTextAlignment(.trailing)
+                                .minimumScaleFactor(0.8)
+
+                            if let licenseURL = photo.resolvedLicenseURL {
+                                Link(destination: licenseURL) {
+                                    Image(systemName: "info.circle")
+                                        .font(.system(size: 10))
+                                        // Widens the hit area without changing
+                                        // the glyph — a 10pt icon is a small
+                                        // target on its own.
+                                        .padding(4)
+                                        .contentShape(Rectangle())
+                                }
+                                .accessibilityLabel("Photo license")
+                            }
+                        }
+                        // Shutterstock's TOS requires the credit be "clearly
+                        // and easily readable by the unaided eye", so this
+                        // doesn't recede as far as it looks like it should.
+                        // Don't drop it back toward 0.6.
+                        .foregroundStyle(.white.opacity(0.85))
                     }
                 }
                 .padding(.top, 6)
