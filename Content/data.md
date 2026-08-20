@@ -18,7 +18,7 @@
 - March 3 2019: Former indoor mile world record, Yomif Kejelcha -
 - March 8 2026: Half marathon world record, Jacob Kiplimo -
 - March 9 1997: Former indoor 800m world record, Wilson Kipketer -
-- March 22 2024: First woman to ever finish the Barkley Marathons, Jasmin Paris *
+- March 22 2024: First woman to ever finish the Barkley Marathons, Jasmin Paris -
 - March 24 2000: Former 300m world record, Michael Johnson -
 
 ### April
