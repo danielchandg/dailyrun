@@ -143,7 +143,7 @@ Bars
 - When asked about his confidence about going after the world record, Lawrence said he could "easily go run 40 miles at 5:40 pace.. in Boulder tomorrow if he had to."
 - Lawrence previously paced Des Linden to a 50k world record in 2021.
 
-# Sources
+## Sources
 
 - https://www.irunfar.com/charlie-lawrence-50-mile-world-record-2023-tunnel-hill-50-mile-interview
 - https://podcasts.apple.com/us/podcast/inside-running-50-miles-at-5-46-pace-to-set-a-world/id1636889625?i=1000636568939

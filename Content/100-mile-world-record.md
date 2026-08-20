@@ -47,7 +47,7 @@ Bars
 - 12-hour WR: 6:32/mi (Sorokin 2022)
 - 24-hour WR: 7:15/mi (Sorokin 2022)
 
-# Video
+## Video
 
 https://youtu.be/zhbQdut-WeU
 
