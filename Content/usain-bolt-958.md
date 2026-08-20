@@ -42,14 +42,27 @@ Rows
 
 ## Medal record
 
-Maybe a CPHOF-style table with his medals
+Maybe a CPHOF-style table with his medals.
+
+- 2007 World Championships: Silver in 200m, Silver in 4x100m relay
+- 2008 Olympics: Gold in 100m, Gold in 200m
+- 2009 World Championships: Gold in 100m, Gold in 200m, Gold in 4x100m relay
+- 2011 World Championships: Gold in 200m, Gold in 4x100m relay
+- 2012 Olympics: Gold in 100m, Gold in 200m, Gold in 4x100m relay
+- 2013 World Championships: Gold in 100m, Gold in 200m, Gold in 4x100m relay
+- 2015 World Championships: Gold in 100m, Gold in 200m, Gold in 4x100m relay
+- 2016 Olympics: Gold in 100m, Gold in 200m, Gold in 4x100m relay
+- 2017 World Championships: Bronze in 100m
+
 
 ## Trivia
 
 - Bolt achieved a top speed of 27.56 mph, the recorded fastest speed a human has ever ran.
+- Four days later, Bolt achieved the 200m world record of 19.19, which still stands to this day.
 
 ## Sources
 
 - https://www.reddit.com/r/trackandfield/s/nKVZtqtymA
 - https://worldathletics.org/records/all-time-toplists
 - https://pmc.ncbi.nlm.nih.gov/articles/PMC10669785/
+- https://en.wikipedia.org/wiki/Usain_Bolt
