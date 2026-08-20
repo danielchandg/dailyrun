@@ -6,7 +6,7 @@
 
 ## Pace
 
-description: Kerr ran an average of 13.84 seconds per 100 meters.
+description: Kerr ran the mile in 222.66 seconds, an average of 13.84 seconds per 100 meters.
 
 - unit: meters
 - y-axis: Pace per 100m

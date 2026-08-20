@@ -7,7 +7,7 @@
 
 ## Pace
 
-descrition: Sorokin ran an average of 6:31 per mile for 100 miles.
+descrition: Sorokin completed 100 miles in 10:51:39, an average of 6:31 per mile.
 
 - unit: mile
 - y-axis: PACE PER MILE
@@ -36,16 +36,16 @@ Rows
 ## Pace Comparison
 
 title: How fast is 10:51:39?  
-description: Sorokin's pace compared to other notable running performances  
+description: Sorokin's pace compared to other world record performances  
 
 Bars
+- Marathon WR: 4:33/mi (Sawe 2026)
 - 50K WR: 5:05/mi (Albertson 2022)
 - 50-mile WR: 5:46/mi (Lawrence 2023)
 - 100K WR: 5:47/mi (Kubheka 2025)
 - 100-mile WR: 6:31/mi (Sorokin 2022)
 - 12-hour WR: 6:32/mi (Sorokin 2022)
 - 24-hour WR: 7:15/mi (Sorokin 2022)
-- 48-hour WR: 9:34/mi (Bonne 2025)
 
 # Video
 
