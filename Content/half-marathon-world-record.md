@@ -11,8 +11,8 @@ description: A 56:42 half marathon is an average pace of 4:19.5 per mile (2:41.3
 
 - unit: kilometer
 - y-axis: PACE PER KM
-- x-axis left label: Km 1
-- x-axis right label
+- x-axis left label: 1 km
+- x-axis right label: 21.1 km
 - distance: 21.1 km
 - split distance: 1 km
 - splits: [2:44, 2:43, ~2:43, ~2:43, 2:41, ~2:37, ~2:37, ~2:37, 2:38, 2:43, ~2:41, ~2:41, ~2:40, ~2:41, 2:38, ~2:43, ~2:43, 2:40, 2:45, 2:44, 2:43, 0:17]
@@ -50,8 +50,10 @@ Rows
 
 ## Pace Comparison
 
-title: How fast is 4:48:21?  
-description: Lawrence's pace compared to other world record performances  
+title: How fast is 56:42?  
+description: Kiplimo's pace compared to world-record pace for other distances    
+
+Kiplimo's speed: 13.9 mi/h  
 
 Bars
 - 100m WR: 23.4 mi/h (Bolt 2009)
@@ -60,7 +62,7 @@ Bars
 - 5,000m WR: 14.8 mi/h (Cheptegei 2020)
 - 10,000m WR: 14.2 mi/h (Cheptegei 2020)
 - Half Marathon WR: 13.7 mi/h (Kiplimo 2026)
-- Marathon WR: 13.1 mi/h (Sawe 2026)
+- Marathon WR: 13.2 mi/h (Sawe 2026)
 
 ## Trivia
 

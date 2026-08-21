@@ -5,3 +5,4 @@
 Fixes for DailyRunComponent
 - Remove "axis" from PaceComponent.
 - Fix text alignment of HeadToHead.
+- Fix pace bar chart: y-axis padding, bar labels.

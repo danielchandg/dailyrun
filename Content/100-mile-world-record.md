@@ -7,7 +7,7 @@
 
 ## Pace
 
-descrition: Sorokin completed 100 miles in 10:51:39, an average of 6:31 per mile.
+description: Sorokin completed 100 miles in 10:51:39, an average of 6:31 per mile.
 
 - unit: mile
 - y-axis: PACE PER MILE
@@ -15,6 +15,7 @@ descrition: Sorokin completed 100 miles in 10:51:39, an average of 6:31 per mile
 - x-axis right label: Mile 100
 - distance: 100 miles
 - split distance (used for calculating paces): 9.972 miles
+- last split distance: 0.907 miles
 - splits: [1:03:19, 1:02:57, 1:02:36, 1:03:32, 1:03:30, 1:03:51, 1:04:58, 1:05:43, 1:06:24, 1:08:27, 6:22]
 - split labels: [Miles 1-10, Miles 11-20, Miles 21-30, Miles 31-40, Miles 41-50, Miles 51-60, Miles 61-70, Miles 71-80, Miles 81-90, Miles 91-100, Last 0.9 Miles]
 
@@ -38,9 +39,11 @@ Rows
 title: How fast is 10:51:39?  
 description: Sorokin's pace compared to other world record performances  
 
+Sorokin's pace: 6:31/mi  
+
 Bars
 - Marathon WR: 4:33/mi (Sawe 2026)
-- 50K WR: 5:05/mi (Albertson 2022)
+- 50K WR: 5:07/mi (Albertson 2022)
 - 50-mile WR: 5:46/mi (Lawrence 2023)
 - 100K WR: 5:47/mi (Kubheka 2025)
 - 100-mile WR: 6:31/mi (Sorokin 2022)
@@ -54,7 +57,7 @@ https://youtu.be/zhbQdut-WeU
 ## Trivia
 
 - Sorokin also set the 12-Hour World Record at the same event (110.24 miles).
-- Sorokin started running at the age of 31 to get in shape. At the time, he weighted around 100 kilograms (220 pounds), as well as drank and smoked regularly.
+- Sorokin started running at the age of 31 to get in shape. At the time, he weighed around 100 kilograms (220 pounds), as well as drank and smoked regularly.
 
 ## Sources
 

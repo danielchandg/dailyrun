@@ -38,11 +38,13 @@ Rows
 title: How fast is 5:59:20?  
 description: Kubheka's pace compared to other world record performances  
 
+Kubheka's pace: 3:35.6/km  
+
 Bars
 - Marathon WR: 2:50/km (Sawe 2026)
-- 50K WR: 3:11/km (Albertson 2022)
-- 50-mile WR: 3:35.0/km (Lawrence 2023)
-- 100K WR: 3:35.6/km (Kubheka 2025)
+- 50K WR: 3:10/km (Albertson 2022)
+- 50-mile WR: 3:35/km (Lawrence 2023)
+- 100K WR: 3:36/km (Kubheka 2025)
 - 100-mile WR: 4:03/km (Sorokin 2022)
 - 12-hour WR: 4:04/km (Sorokin 2022)
 - 24-hour WR: 4:30/km (Sorokin 2022)

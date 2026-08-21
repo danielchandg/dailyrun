@@ -14,13 +14,13 @@ description: Kerr ran the mile in 222.66 seconds, an average of 13.84 seconds pe
 - x-axis right label: 1609m
 - distance: 1609.34 meters
 - split distance: 100 meters
-- splits: [13.79, 13.70, 13.48, 14.25, 14.05, 13.84, 13.83, 14.12, 13.70, 13.79, 13.88, 13.81, 13.71, 13.68, 13.67, 1.34]
-- split labels: 100m, 100-200m, 200-300m, 300-400m, 400-500m, 500-600m, 600-700m, 700-800m, 800-900m, 900-1000m, 1000-1100m, 1100-1200m, 1200-1300m, 1300-1400m, 1400-1500m, 1500-1600m, 1600-1609m
+- splits: [13.79, 13.70, 13.48, 14.25, 14.05, 13.84, 13.83, 14.12, 14.02, 13.70, 13.79, 13.88, 13.81, 13.71, 13.68, 13.67, 1.34]
+- split labels: 0-100m, 100-200m, 200-300m, 300-400m, 400-500m, 500-600m, 600-700m, 700-800m, 800-900m, 900-1000m, 1000-1100m, 1100-1200m, 1200-1300m, 1300-1400m, 1400-1500m, 1500-1600m, 1600-1609m
 
 ## Head-to-head
 
 title: WORLD RECORD  
-description: Kerr broke the previous mile world record of 3:43.13 set by the legendary El Guerrouj set in 1999.  
+description: Kerr broke the previous mile world record of 3:43.13 set by the legendary El Guerrouj in 1999.  
 
 Rows
 - Split, Kerr, El Guerrouj

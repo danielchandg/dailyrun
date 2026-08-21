@@ -14,7 +14,7 @@ description: Lawrence completed 50 miles in 4:48:21, an average of 5:46 per mile
 - x-axis left label: Mile 1
 - x-axis right label: Mile 50
 - distance: 50 miles
-- split distance: 5 miles
+- split distance: 1 mile
 - splits:
   - Mile 1: 5:38
   - Mile 2: 5:37
@@ -110,7 +110,7 @@ title: WORLD RECORD
 description: Lawrence improved upon the previous 50-mile record set in 2019 by Jim Walmsley of 4:50:08.  
 
 Rows
-- Split, Lawrence 2023, Walmsley 2019
+- Split (approximate), Lawrence 2023, Walmsley 2019
 - 5 mi, 28:00, 29:00
 - 10 mi, 56:00, 58:00
 - 15 mi, 1:24:00, 1:27:00
@@ -122,16 +122,16 @@ Rows
 - 45 mi, 4:17:00, 4:20:00
 - 50 mi, 4:48:21, 4:50:08
 
-* Splits are approximated.
-
 ## Pace Comparison
 
 title: How fast is 4:48:21?  
 description: Lawrence's pace compared to other world record performances  
 
+Lawrence's pace: 5:46/mi  
+
 Bars
 - Marathon WR: 4:33/mi (Sawe 2026)
-- 50K WR: 5:05/mi (Albertson 2022)
+- 50K WR: 5:07/mi (Albertson 2022)
 - 50-mile WR: 5:46/mi (Lawrence 2023)
 - 100K WR: 5:47/mi (Kubheka 2025)
 - 100-mile WR: 6:31/mi (Sorokin 2022)

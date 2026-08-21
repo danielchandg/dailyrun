@@ -9,7 +9,7 @@
 - February 9 2021: Former women's indoor 1500m world record, Gudaf Tsegay -
 - February 13 2025: Indoor Mile/1500m world record, Jakob Ingebrigtsen *
 - February 14 2025: Indoor 5000m world record, Grant Fisher -
-- February 16 2025: Fastest half marathon ever, Jacob Kiplimo *
+- February 16 2025: Fastest half marathon ever, Jacob Kiplimo DONE
 - February 17 2024: 300m world record, Letsile Tebogo -
 - February 18 2018: 60m world record, Christian Coleman -
 - February 21 2026: Female 100M world record, Ashley Paulson -
@@ -80,7 +80,7 @@
 - August 14 1996: Former women's mile world record, Svetlana Masterkova -
 - August 14 2016: 400m world record, Wayde Van Niekerk *
 - August 14 2020: 5000m world record, Joshua Cheptegei *
-- August 16 2009: 100m world record, Usain Bolt *
+- August 16 2009: 100m world record, Usain Bolt DONE
 - August 17 1988: Former 400m world record, Butch Reynolds -
 - August 20 2009: 200m world record, Usain Bolt *
 - August 20 2016: Olympics 1500m final, Matthew Centrowitz -
@@ -90,7 +90,7 @@
 - August 24 1997: Former 800m world record, Wilson Kipketer -
 - August 25 2024: 3000m world record, Jakob Ingebrigtsen *
 - August 26 1999: Former 400m world record, Michael Johnson -
-- August 26 2025: World's fastest 100k, Sibusiso Kubheka *
+- August 26 2025: World's fastest 100k, Sibusiso Kubheka DONE
 - August 28 1981: Former mile world record, Sebastian Coe -
 - August 29 2021: 24-hour world record, Aleksandr Sorokin *
 - August 30 1987: Rescinded 100m world record, Ben Johnson/Carl Lewis -
@@ -125,7 +125,7 @@
 - October 24 2021: Women's half marathon world record, Letesenbet Gidey
 
 ### November
-- November 11 2023: 50M world record, Charlie Lawrence
+- November 11 2023: 50M world record, Charlie Lawrence DONE
 
 ### December
 - December 6 2025: Indoor 600m world record, Josh Hoey
